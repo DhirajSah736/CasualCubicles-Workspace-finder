@@ -133,12 +133,12 @@ const Header: React.FC<HeaderProps> = ({
         <LocateFixed className="w-10 h-10 text-orange-500" />
         <h1 className="text-lg md:text-xl lilita-one-regular bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent truncate tracking-wide">
           <span className="hidden sm:inline text-[30px] md:text-[37px]">Casual<span className='text-white/95'>Cubicles</span> </span>
-          <span className="sm:hidden">WorkSpace</span>
+          <span className="sm:hidden">CC</span>
         </h1>
       </div>
 
       {/* Search Bar */}
-      <div className="flex-1 max-w-2xl relative min-w-0 ml-4 md:ml-8">
+      {/* <div className="flex-1 max-w-2xl relative min-w-0 ml-4 md:ml-8">
         <div className="relative">
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
           <input
@@ -151,7 +151,43 @@ const Header: React.FC<HeaderProps> = ({
             className="w-full pl-10 pr-4 py-2 bg-black backdrop-blur-xl border border-orange-500/20 rounded-lg focus:ring-2 focus:ring-orange-500/50 focus:border-orange-500/50 text-white placeholder-gray-400 transition-all duration-300 focus:bg-black font-sans font-medium tracking-wide"
           />
         </div>
+      </div> */}
+
+    <div className="flex-1 w-full max-w-2xl min-w-0 ml-2 md:ml-8 relative">
+       <div className="relative w-full">
+       {/* <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-white pointer-events-none" /> */}
+       <input
+        ref={searchInputRef}
+        type="text"
+        value={searchQuery}
+        onChange={handleInputChange}
+        onKeyDown={handleKeyPress}
+        placeholder="Search location..."
+        className="
+          w-full px-10 pr-4 py-3
+          bg-black/85 backdrop-blur-xl
+          border border-orange-500/25
+          rounded-lg
+          focus:ring-2 focus:ring-orange-500/50 focus:border-orange-500/50
+          text-white placeholder-gray-400
+          transition-all duration-300 focus:bg-black/95
+          text-base font-sans font-medium tracking-wide
+          outline-none
+          sm:text-sm
+          pl-[1rem]
+    
+          
+        "
+        style={{
+          minWidth: '0',
+          WebkitAppearance: "none",
+        }}
+       />
+       {/* Place your dropdown here (see below) */}
       </div>
+     </div>
+
+        
 
       {/* Filters Button */}
       <button
