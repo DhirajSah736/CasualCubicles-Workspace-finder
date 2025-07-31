@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Satoshi', system-ui, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', Georgia, serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  .lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-size:30px;
+    font-style: normal;
+  }
+}
+
+@layer utilities {
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  /* Custom scrollbar styles */
+  /* Orange themed scrollbars for all scrollable elements */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #f97316 #000000FF !important;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #000000FF !important;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: #000000FF !important;
+    border-radius: 4px;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background: #000000FF !important;
+  }
+  
+  *::-webkit-scrollbar-corner {
+    background: #000000FF !important;
+  }
+
+  /* Google Places Autocomplete Dropdown Styling */
+  .pac-container {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(16px) !important;
+    border: 1px solid rgba(249, 115, 22, 0.2) !important;
+    border-radius: 8px !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 10px 25px -5px rgba(249, 115, 22, 0.1) !important;
+    margin-top: 4px !important;
+  }
+  
+  .pac-item {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    backdrop-filter: blur(16px) !important;
+    color: #ffffff !important;
+    border-bottom: 1px solid rgba(249, 115, 22, 0.1) !important;
+    padding: 12px 16px !important;
+    font-family: 'Satoshi', system-ui, sans-serif !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.2s ease-in-out !important;
+  }
+  
+  .pac-item:hover {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    backdrop-filter: blur(16px) !important;
+    border-left: 3px solid #f97316 !important;
+    color: #ffffff !important;
+    transform: translateX(2px) !important;
+  }
+  
+  .pac-item-selected {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    backdrop-filter: blur(16px) !important;
+    border-left: 3px solid #f97316 !important;
+    color: #ffffff !important;
+  }
+  
+  .pac-item-query {
+    color: #ffffff !important;
+    font-weight: 500 !important;
+  }
+  
+  .pac-matched {
+    color: #f97316 !important;
+    font-weight: 500 !important;
+  }
+  
+  .pac-icon {
+    background-image: none !important;
+    width: 20px !important;
+    height: 20px !important;
+    margin-right: 12px !important;
+  }
+  
+  .pac-icon-marker {
+    background-color: #f97316 !important;
+    border-radius: 50% !important;
+    width: 8px !important;
+    height: 8px !important;
+    margin: 6px !important;
+    box-shadow: 0 0 8px rgba(249, 115, 22, 0.4) !important;
+  }
+  
+  .pac-item:first-child {
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+  }
+  
+  .pac-item:last-child {
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    border-bottom: none !important;
+  }
+}
