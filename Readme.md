@@ -74,7 +74,7 @@ CasualCubicles helps work-from-home professionals, students, freelancers, and ca
 4. **Run the project locally**
    ```bash
    npm run dev
-### or
+- or
     yarn dev
 
 ---
