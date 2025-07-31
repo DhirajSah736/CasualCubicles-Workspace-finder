@@ -3,7 +3,7 @@
 **Discover your perfect spot to work, study, or meet up — anywhere in your city.**  
 CasualCubicles helps work-from-home professionals, students, freelancers, and casual groups find welcoming cafés, libraries, and coworking spaces with **real-time info** on opening hours, reviews, and more.
 
-![CasualCubicles OG Image](./public/og-preview.jpg) 
+![CasualCubicles OG Image](./public/image/public/image/CasualCubicles-OG.png) 
 
 ---
 
