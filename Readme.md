@@ -29,6 +29,14 @@ CasualCubicles helps work-from-home professionals, students, freelancers, and ca
 
 ---
 
+### 💻 Desktop View
+![CasualCubicles OG Image](./public/image/Desktop%20view-casualcubical.jpg)
+
+### 📱 Mobile View
+![CasualCubicles OG Image](./public/image/mobileView-casualcubical.jpg)
+
+---
+
 ## 🧑‍💻 Target Audience
 
 - Remote workers & freelancers  
