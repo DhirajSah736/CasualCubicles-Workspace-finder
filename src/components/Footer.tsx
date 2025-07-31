@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     // <footer className="bg-black/40 backdrop-blur-xl border-t border-orange-500/20 px-4 py-2 flex items-center justify-center gap-4 h-10 z-30">
     <footer className="fixed bottom-0 left-0 w-full bg-black backdrop-blur-xl border-t border-orange-500/20 px-4 py-2 flex items-center justify-center gap-4 h-10 z-[1000]">
       <span className="text-xs text-gray-300 font-sans tracking-wide">
-        Designed and developed with ❤️ by <span className='text-orange-600 font-bold'>Dhiraj Sah</span>
+        Designed and developed by <span className='text-orange-400 font-bold'>Dhiraj Sah</span>
       </span>
       
       <div className="flex items-center gap-2">
