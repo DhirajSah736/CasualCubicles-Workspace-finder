@@ -63,8 +63,8 @@ CasualCubicles helps work-from-home professionals, students, freelancers, and ca
 
 2. **Install dependencies**
    ```bash
-   npm install
-### or
+    npm install
+        or
     yarn install
 
 3. **Configure API Key**
@@ -73,10 +73,10 @@ CasualCubicles helps work-from-home professionals, students, freelancers, and ca
 
 4. **Run the project locally**
    ```bash
-   npm run dev
-- or
+    npm run dev
+        or
     yarn dev
-
+    
 ---
 
 ## 👨‍💻 Author
